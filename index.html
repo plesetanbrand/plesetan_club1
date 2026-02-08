@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLESETAN CLUB | PARODY STREETWEAR</title>
+    <meta name="description"
+        content="Official store for Plesetan Club. High-end parody streetwear for the bold and humorous.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for that premium feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo"><img src="assets/logo_new.png" width="200" height="200" class="logo-img" alt="PLESETAN LOGO">
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-item">HOME</a>
+            <a href="#about" class="nav-item">CONCEPT</a>
+            <a href="#lookbook" class="nav-item">LOOKBOOK</a>
+            <a href="#shop" class="nav-item">SHOP</a>
+        </div>
+        <div class="cart-icon" id="cart-btn">
+            CART (<span id="cart-count">0</span>)
+        </div>
+    </nav>
+
+    <div class="sidebar-menu" id="sidebar">
+        <div class="close-btn" id="close-sidebar">&times;</div>
+        <h2>YOUR STASH</h2>
+        <div class="cart-items" id="cart-items">
+            <p class="empty-msg">YOUR CART IS EMPTY. SAD.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="total">TOTAL: <span id="cart-total">IDR 0</span></div>
+            <button class="checkout-btn">SECURE CHECKOUT</button>
+        </div>
+    </div>
+
+    <header id="hero" class="hero-section">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                MADE WITH FEELINGS &bull; FIRST CHOICE FOR YOU &bull; PLESETAN CLUB &bull; NOT FOR EVERYONE &bull;
+                MADE WITH FEELINGS &bull; FIRST CHOICE FOR YOU &bull; PLESETAN CLUB &bull; NOT FOR EVERYONE &bull;
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="glitch" data-text="PLESETAN CLUB">PLESETAN CLUB</h1>
+            <h2>STREETWEAR FASHION</h2>
+            <p>WEARING IS BELIEVING. OR NOT.</p>
+            <a href="#shop" class="cta-btn">GRAB THE MERCH</a>
+        </div>
+
+        <div class="hero-visual">
+            <!-- This will be a generated image or abstract shape -->
+            <div class="abstract-shape"></div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h3>THE CONCEPT</h3>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Our goal in creating this brand is to increase the number of cool people in the world.
+                        "PLESETAN" has a deep meaning, namely funny but meaningful words and wrapped in an elegant
+                        design. Designed in Indonesia. And worn
+                        by the cool people.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num" data-val="100">0</span>%
+                        <span class="stat-label">COTTON</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-val="500">0</span>+
+                        <span class="stat-label">JOKES</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-val="0">0</span>
+                        <span class="stat-label">REGRETS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lookbook" class="lookbook-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h3>VISUAL ARCHIVE</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" id="gallery-1">
+                    <img src="assets/gallery-1.jpg" alt="CONCEPT_01">
+                </div>
+                <div class="gallery-item" id="gallery-2">
+                    <img src="assets/gallery-2.jpg" alt="RAW">
+                </div>
+                <div class="gallery-item" id="gallery-3">
+                    <img src="assets/gallery-3.jpeg" alt="EDIT">
+                </div>
+                <div class="gallery-item wide" id="gallery-4">
+                    <img src="assets/gallery-4.jpeg" alt="Urban Detail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h3>LATEST DROPS</h3>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="tshirt">TEES</button>
+                <button class="filter-btn" data-filter="hoodie">HOODIES</button>
+                <button class="filter-btn" data-filter="acc">MISC</button>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-logo">PLESETAN CLUB</div>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PLESETAN CLUB. NO RIGHTS RESERVED. JUST KIDDING.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
